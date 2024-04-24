@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <style>
+        .container {
+            width: 90%;
+            margin: 40px auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+
+        .item {
+            width: 100%;
+            border: 2px solid black;    
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            img {
+                height: 300px;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+       <h1>Todos</h1>
+    
+
+       <form name="create">
+        <input type="text" name="title" placeholder="title">
+        <button>create</button>
+       </form>
+
+       <ul>
+        <li></li>
+       </ul>
+   
+    <script type="module" src="./index.js"></script>
+</body>
+
+</html>
